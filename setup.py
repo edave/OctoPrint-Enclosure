@@ -14,14 +14,14 @@ plugin_package = "octoprint_enclosure"
 plugin_name = "OctoPrint-Enclosure"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "4.13.2"
+plugin_version = "4.13.3"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
 plugin_description = "Awesome plugin to control everything that you ever wanted on your enclosure"
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Vitor Henrique"
+plugin_author = "eDave & Vitor Henrique"
 
 # The plugin's author's mail address.
 plugin_author_email = "vitormhenrique@gmail.com"
@@ -33,7 +33,7 @@ plugin_url = "https://github.com/vitormhenrique/OctoPrint-Enclosure"
 plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
-plugin_requires = ["RPi.GPIO>=0.6.5", "requests>=2.7", "smbus2>=0.3.0", "gpiozero==1.6.2", "RPi.bme280", "bme680"]
+plugin_requires = ["RPi.GPIO>=0.6.5", "requests>=2.7", "smbus2>=0.3.0", "gpiozero==1.6.2", "RPi.bme280", "bme680", "adafruit-circuitpython-emc2101"]
 
 additional_setup_parameters = {}
 
